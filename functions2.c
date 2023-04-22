@@ -111,7 +111,7 @@ char *str;
 int i, count = 0;
 
 UNUSED(buffer);
-UNUSED(flags);	
+UNUSED(flags);
 UNUSED(width);
 UNUSED(size);
 
@@ -124,7 +124,7 @@ UNUSED(precision);
 str = ")Null(";
 }
 for (i = 0; str[i]; i++)
-		;
+;
 
 for (i = i - 1; i >= 0; i--)
 {
